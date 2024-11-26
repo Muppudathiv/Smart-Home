@@ -1,0 +1,2028 @@
+[
+    {
+        "switchname": "1",
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 6,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 5,
+        "status": 1
+    },
+    {
+        "switchname": 6,
+        "status": 1
+    },
+    {
+        "switchname": 5,
+        "status": 1
+    },
+    {
+        "switchname": 6,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 6,
+        "status": 0
+    },
+    {
+        "switchname": 5,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 6,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 5,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 0
+    },
+    {
+        "switchname": 6,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 5,
+        "status": 1
+    },
+    {
+        "switchname": 6,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 0
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 4,
+        "status": 1
+    },
+    {
+        "switchname": "first room",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "Two room",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "three room",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "firstroom",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "two_room",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "hall",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": "kitchan",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 3,
+        "status": 1
+    },
+    {
+        "switchname": 5,
+        "status": 1
+    },
+    {
+        "switchname": 7,
+        "status": 1
+    },
+    {
+        "switchname": 9,
+        "status": 1
+    },
+    {
+        "switchname": 12,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 2,
+        "status": 1
+    },
+    {
+        "switchname": 6,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 2,
+        "status": 0
+    },
+    {
+        "switchname": 3,
+        "status": 0
+    },
+    {
+        "switchname": 5,
+        "status": 0
+    },
+    {
+        "switchname": 6,
+        "status": 0
+    },
+    {
+        "switchname": 7,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 0
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 8,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CE"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 0
+    },
+    {
+        "switchname": 1,
+        "status": 1
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CF"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CF"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CA"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CA"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CZ"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 3,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 3,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": "pallhany",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": "home",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 3,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": "Home",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": "TV",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": "Living Room Light",
+        "status": "on",
+        "macaddress": "00:1A:2B:3C:4D:5E"
+    },
+    {
+        "switchname": "Living Room Light",
+        "status": 1,
+        "macaddress": "00:1A:2B:3C:4D:5E"
+    },
+    {
+        "switchname": "Living Room Light",
+        "status": 1,
+        "macaddress": "00:1A:2B:3C:4D:5E"
+    },
+    {
+        "switchname": "Living Room Light",
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": "Living Room Light",
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40",
+        "topic": "home"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": " D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": "Fan",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    },
+    {
+        "switchname": 2,
+        "status": 1,
+        "macaddress": "DC:DA:0C:D2:F8:D4"
+    },
+    {
+        "switchname": 3,
+        "status": 1,
+        "macaddress": "DC:DA:0C:D2:F8:D4"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "DC:DA:0C:D2:F8:D4"
+    },
+    {
+        "switchname": 5,
+        "status": 1,
+        "macaddress": "DC:DA:0C:D2:F8:D4"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 6,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 3,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 4,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 5,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 2,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 4,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 4,
+        "status": 0,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 4,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D8:BC:38:FC:7C:40"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "hii"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": "home"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD",
+        "topic": null
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 1,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 1,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": 8,
+        "status": 0,
+        "macaddress": "D1:0C:DA:11:00:CD"
+    },
+    {
+        "switchname": "Ac",
+        "status": 0,
+        "user_id": "64e4b2f5336d8f7b7e26010a"
+    }
+]
