@@ -1,14 +1,15 @@
 from django.db import models
 from djongo import models
+from bson import ObjectId
 
 class register(models.Model):
-    _id = models.ObjectIdField(primary_key=True)
+    _id = models.ObjectIdField(primary_key=True, default=ObjectId, editable=False)
     user_name = models.CharField(max_length=100)
     email = models.EmailField(unique=True)  # Ensure uniqueness
     password = models.CharField(max_length=200)
 
-    def __str__(self):
-        return self.user_name
+    class Meta:
+        db_table = 'user_register'
 
 class Switch(models.Model):
     # _id = models.ObjectIdField(primary_key=True)

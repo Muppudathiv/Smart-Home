@@ -1,8 +1,9 @@
-import traceback
-import logging
+import traceback 
 import os
 import time 
 import json
+from traceback  import format_exc
+from asgiref.sync import sync_to_async, async_to_sync
 from pymongo import MongoClient
 from bson import ObjectId
 from django.core import signing
@@ -17,148 +18,151 @@ from .models import *
 SWITCHES_FILE_PATH = os.path.join(settings.BASE_DIR, 'switches.json')
 
 # Helper function to read switches from the 
-SWITCHES_FILE_PATH = 'switches.json'
+# SWITCHES_FILE_PATH = 'switches.json'
 
-# Function to read switches from the JSON file
 def read_switches():
     if not os.path.exists(SWITCHES_FILE_PATH):
         # Create an empty file with an empty list if it doesn't exist
         with open(SWITCHES_FILE_PATH, 'w') as file:
             file.write('[]')
     
-    # Attempt to read and parse the JSON data
     with open(SWITCHES_FILE_PATH, 'r') as file:
         try:
             return json.load(file)
         except json.JSONDecodeError:
-            print("JSON decode error: The file might be empty or corrupted.")
-            return []  # Return an empty list if JSON is invalid
+            return []
 
-# Function to write switches to the JSON file
 def write_switches(switches):
-    try:
-        with open(SWITCHES_FILE_PATH, 'w') as file:
-            json.dump(switches, file, indent=4)
-    except Exception as e:
-        print(f"Error writing to file: {e}")
+    with open(SWITCHES_FILE_PATH, 'w') as file:
+        json.dump(switches, file, indent=4)
         
-# @csrf_exempt  from pymongo import MongoClient
+# MongoDB setup
 client = MongoClient('mongodb://localhost:27017/')
 db = client['Another_Db']
-user_collection_register =db['user_register']
+user_collection_register = db['user_register']
 @csrf_exempt
 def register_user(request):
-    if request.method == 'POST':
+    return async_to_sync(async_register_user)(request)
+
+# Asynchronous handler
+async def async_register_user(request):
+    try:
+        # Validate request method
+        if request.method != 'POST':
+            return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+        # Validate request body
+        if not request.body:
+            return JsonResponse({'error': 'Empty request body'}, status=400)
+
+        # Parse the JSON body
         try:
-            # Parse JSON data from the request body
-            data = json.loads(request.body)
-            user_name = data.get('user_name')
-            email = data.get('email')
-            password = data.get('password')
-
-            # Validate the input data
-            if not user_name or not email or not password:
-                return JsonResponse({'error': 'Missing required fields'}, status=400)
-
-            # Check if email already exists
-            if register.objects.filter(email=email).exists():
-                return JsonResponse({'error': 'Email already exists'}, status=400)
-
-            # Hash the password
-            hashed_password = make_password(password)
-
-            # Save the user details to the database
-            user = register(
-                user_name=user_name,
-                email=email,
-                password=hashed_password
-            )
-            user.save()
-
-            return JsonResponse({'message': 'Registration successful!'}, status=201)
-
+            body = request.body.decode()
+            data = json.loads(body)
         except json.JSONDecodeError:
-            return JsonResponse({'error': 'Invalid JSON format'}, status=400)
-        except Exception as e:
-            return JsonResponse({'error': str(e)}, status=500)
+            return JsonResponse({'error': 'Invalid JSON payload'}, status=400)
 
-    return JsonResponse({'error': 'Invalid request method'}, status=405)
+        # Extract data
+        user_name = data.get('user_name')
+        email = data.get('email')
+        password = data.get('password')
 
-# MongoDB connection
-client = MongoClient("mongodb://localhost:27017/")
-db = client['Another_Db']
-users_collection = db['users']
-@csrf_exempt  # Temporarily disable CSRF for debugging
+        # Validate input fields
+        if not user_name or not email or not password:
+            return JsonResponse({'error': 'Missing required fields'}, status=400)
+
+        # Check if email already exists
+        existing_user = await sync_to_async(user_collection_register.find_one)({'email': email})
+        if existing_user:
+            return JsonResponse({'error': 'Email already exists'}, status=400)
+
+        # Hash the password
+        hashed_password = make_password(password)
+
+        # Prepare user data for insertion
+        user_data = {
+            'user_name': user_name,
+            'email': email,
+            'password': hashed_password,
+        }
+
+        # Insert user data into MongoDB
+        result = await sync_to_async(user_collection_register.insert_one)(user_data)
+
+        # Log and return a success response
+        print(f"User saved with ID: {result.inserted_id}")
+        return JsonResponse({'message': 'Registration successful!',}, status=201)
+
+    except Exception as e:
+        # Log the error and return an error response
+        import traceback
+        print(traceback.format_exc())
+        return JsonResponse({'error': f'An unexpected error occurred: {str(e)}'}, status=500)
+
+@csrf_exempt
 def login_user(request):
-    if request.method == 'POST':
+    return async_to_sync(async_login_user)(request)
+
+# Asynchronous handler
+async def async_login_user(request):
+    try:
+        # Validate request method
+        if request.method != 'POST':
+            return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+        # Validate request body
+        if not request.body:
+            return JsonResponse({'error': 'Empty request body'}, status=400)
+
+        # Parse the JSON body
         try:
-            print(f"Request body: {request.body}")  # Log the raw request body
-            
-            # Check if the request body is empty
-            if not request.body:
-                print("Empty request body")
-                return JsonResponse({'error': 'Empty request body'}, status=400)
+            body = request.body.decode()
+            data = json.loads(body)
+        except json.JSONDecodeError:
+            return JsonResponse({'error': 'Invalid JSON payload'}, status=400)
 
-            def generate_custom_csrf_token(user_id, expires_in_days=365):
-                    """
-                    Generate a CSRF token with an expiration date.
-                    """
-                    expiration_date = (now() + timedelta(days=expires_in_days)).timestamp()
-                    token_data = {'user_id': user_id, 'exp': expiration_date}
-                    
-                    print(f"check the csrf token and expires day${token_data}")
-                    return signing.dumps(token_data, salt='custom-csrf-token')
-                
-                
-            # Attempt to parse JSON data from the request body
-            try:
-                data = json.loads(request.body)
-                print(f"Parsed data: {data}")  # Log parsed data
-            except json.JSONDecodeError as e:
-                print(f"JSON decode error: {e}")
-                return JsonResponse({'error': 'Invalid JSON'}, status=400)
-            
-            email = data.get('email')
-            password = data.get('password')
+        # Extract email and password
+        email = data.get('email')
+        password = data.get('password')
 
-            # Check if required fields are missing
-            if not email or not password:
-                print("Missing username or password")
-                return JsonResponse({'error': 'Username and password are required'}, status=400)
+        # Validate input fields
+        if not email or not password:
+            return JsonResponse({'error': 'Email and password are required'}, status=400)
 
-            # Try fetching the user from the database
-            try:
-                user =register.objects.get(email=email)
-            except register.DoesNotExist:
-                print(f"User with username {email} not found.")
-                return JsonResponse({'success': False, 'message': 'Invalid username or password.'}, status=400)
+        # Generate custom CSRF token
+        def generate_custom_csrf_token(user_id, expires_in_days=365):
+            expiration_date = (now() + timedelta(days=expires_in_days)).timestamp()
+            token_data = {'user_id': user_id, 'exp': expiration_date}
+            return signing.dumps(token_data, salt='custom-csrf-token')
 
-            # Check if the password matches
-            if check_password(password, user.password):
-                print("Password is valid")
-                
-              # Generate and return CSRF token
-                csrf_token = generate_custom_csrf_token(str(user._id), expires_in_days=365)
-                
-                return JsonResponse({
-                    'success': True,
-                    'message': 'Login successful!',
-                    'csrfToken': csrf_token# Include CSRF token in the response
-                }, status=200)
-            else:
-                print("Invalid password")
-                return JsonResponse({'success': False, 'message': 'Invalid username or password.'}, status=400)
+        # Fetch user from database asynchronously
+        try:
+            user = await sync_to_async(register.objects.get)(email=email)
+        except register.DoesNotExist:
+            return JsonResponse({'success': False, 'message': 'Invalid email or password.'}, status=400)
 
-        except Exception as e:
-            # Catch any other errors
-            print("Unexpected error:", e)
-            print("Full traceback:", traceback.format_exc())  # Log full traceback for deeper insights
-            return JsonResponse({'error': 'Internal server error', 'details': str(e)}, status=500)
+        # Verify the password
+        if not check_password(password, user.password):
+            return JsonResponse({'success': False, 'message': 'Invalid email or password.'}, status=400)
 
-    print("Invalid request method:", request.method)
-    return JsonResponse({'error': 'Invalid request method'}, status=405)
+        # Generate CSRF token
+        csrf_token = generate_custom_csrf_token(str(user._id), expires_in_days=365)
+
+        # Return success response
+        return JsonResponse({
+            'success': True,
+            'message': 'Login successful!',
+            'csrfToken': csrf_token  # Include CSRF token in response
+        }, status=200)
+
+    except Exception as e:
+        # Log full traceback for debugging
+        print("Unexpected error:", str(e))
+        print("Full traceback:", format_exc())
+        return JsonResponse({'error': 'Internal server error', 'details': str(e)}, status=500)
 
 
+## use switch case ,asging ,hold try catch#
 @csrf_exempt
 def compare_token(request):
     if request.method == "GET":
@@ -213,45 +217,104 @@ def compare_token(request):
     
     return JsonResponse({'error': 'Invalid request method'}, status=405)
 
-@csrf_exempt
+# @csrf_exempt
+# def action_switch(request):
+#     if request.method == 'POST':
+#         if not request.body:
+#             return JsonResponse({'error': 'Empty request body'}, status=400)
+
+#         try:
+#             data = json.loads(request.body)
+#         except json.JSONDecodeError:
+#             return JsonResponse({'error': 'Invalid JSON payload'}, status=400)
+
+#         switchname = data.get('switchname')
+#         status = data.get('status', 'off')
+#         macaddress = data.get('macaddress')
+        
+
+#         if not switchname or not macaddress:
+#             return JsonResponse({'error': 'Switch name and macaddress are required'}, status=400)
+
+#         # Read existing switches
+#         switches = read_switches()
+        
+#         # Add new status entry for the switch
+#         new_status = {'switchname': switchname, 'status': status, 'macaddress': macaddress}
+#         switches.append(new_status)
+        
+#         # Update the switch list
+#         write_switches(switches)
+
+#         # Publish the switch status to MQTT
+#         try:
+#             # Pass macaddress, switchname, and status to publish_switch_status
+#             # mqtt_handler.publish_switch_status(macaddress, switchname, status)
+#             mqtt_handler.update_switch_details(macaddress, switchname, status)
+#         except Exception as e:
+#             return JsonResponse({'error': f'Failed to publish to MQTT: {str(e)}'}, status=500)
+
+#         return JsonResponse({'message': 'Switch status updated successfully', 'switch': new_status}, status=200)
+
+#     return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+
+
+# @csrf_exempt
 def action_switch(request):
-    if request.method == 'POST':
+    return async_to_sync(async_action_switch)(request)
+
+async def async_action_switch(request):
+    try:
+        # Validate request method
+        if request.method != 'POST':
+            return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+        # Validate request body
         if not request.body:
             return JsonResponse({'error': 'Empty request body'}, status=400)
 
+        # Parse request body
         try:
             data = json.loads(request.body)
         except json.JSONDecodeError:
             return JsonResponse({'error': 'Invalid JSON payload'}, status=400)
 
+        # Extract data
         switchname = data.get('switchname')
         status = data.get('status', 'off')
         macaddress = data.get('macaddress')
-        
 
-        if not switchname or not macaddress:
-            return JsonResponse({'error': 'Switch name and macaddress are required'}, status=400)
+        print(f"switname :{switchname},status: {status},macadress: {macaddress}")
+        if not switchname or not macaddress :
+            return JsonResponse({'error': 'Switchname or macaddress  are required'}, status=400)
+
+        try:
+            switchname_int = int(switchname)
+            status_int = int(status)
+        except ValueError:
+            return JsonResponse({'error': 'Switchname and status must be integers'}, status=400)
 
         # Read existing switches
-        switches = read_switches()
-        
-        # Add new status entry for the switch
-        new_status = {'switchname': switchname, 'status': status, 'macaddress': macaddress}
-        switches.append(new_status)
-        
-        # Update the switch list
-        write_switches(switches)
+        switches = await sync_to_async(read_switches)()
 
-        # Publish the switch status to MQTT
+        # Update switch status
+        new_status = {'switchname': switchname_int, 'status': status_int, 'macaddress': macaddress}
+        switches.append(new_status)
+        await sync_to_async(write_switches)(switches)
+
+        # Publish to MQTT
         try:
-            # Pass macaddress, switchname, and status to publish_switch_status
-            mqtt_handler.publish_switch_status(macaddress, switchname, status)
+            # Use `sync_to_async` if `publish_switch_status` is synchronous
+            await sync_to_async(mqtt_handler.publish_switch_status)(macaddress, switchname_int, status_int)
         except Exception as e:
             return JsonResponse({'error': f'Failed to publish to MQTT: {str(e)}'}, status=500)
 
+        # Return success response
         return JsonResponse({'message': 'Switch status updated successfully', 'switch': new_status}, status=200)
 
-    return JsonResponse({'error': 'Invalid request method'}, status=405)
+    except Exception as e:
+        return JsonResponse({'error': f'An unexpected error occurred: {str(e)}'}, status=500)
 
 
 def verify_csrf_token(csrf_token):

@@ -25,10 +25,25 @@ SECRET_KEY = 'django-insecure-i3pbhqz%x@(r)-t3!)^pz73+76*06o5-^&74sz3+=g#9mbwa)r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'root': {
+        'handlers': ['console'],
+        'level': 'DEBUG',
+    },
+}
+
+
 ALLOWED_HOSTS = [
     'localhost',  # Add localhost for local development
     '127.0.0.1',  # Add 127.0.0.1 for local requests
-    'a07b-117-231-194-234.ngrok-free.app',
+    '98c1-2401-4900-1ce2-236e-b405-3b72-6810-9476.ngrok-free.app',
     'grafin.shop'
 ]
 
@@ -101,6 +116,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'Another_Db',  # MongoDB database name
+        'ENFORCE_SCHEMA': False, 
     }
 }
 

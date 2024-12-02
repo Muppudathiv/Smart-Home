@@ -138,9 +138,8 @@ class MQTTHandler:
         payload = f"{int(switchname)},{int(status)}"
         topic = f"{macaddress}" 
         self.publish(topic, payload)
-    
+            
     ################## MODIFY CODE FOR WEB SOCKET BY CONSUMERS.PY ANS ASGI.PY        
-
     def publish_switch_status_websocket(self, macaddress, switchname, status):
             if not self.connected:
                 print("MQTT client is not connected.")
@@ -184,12 +183,3 @@ def start_mqtt_loop():
 mqtt_thread = threading.Thread(target=start_mqtt_loop)
 mqtt_thread.daemon = True
 mqtt_thread.start()
-
-    # def publish_switch_status(self, macaddress, switchname, status):
-    #         print(f"macaddressfromviiew '{macaddress}'")
-    #     # Convert to comma-separated integer format and use macaddress as the topic
-    #         payload = f"{int(switchname)},{int(status)}"
-    #         topic = f"{macaddress}"
-            
-    #         # Dynamically using macaddress as part of the topic
-    #         self.publish(topic, payload)
