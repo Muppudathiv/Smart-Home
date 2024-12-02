@@ -14,6 +14,7 @@ from django.contrib.auth.hashers import make_password, check_password
 from django.conf import settings
 from .mqtt import mqtt_handler 
 from .models import *
+from django.contrib.auth import logout
 
 SWITCHES_FILE_PATH = os.path.join(settings.BASE_DIR, 'switches.json')
 
@@ -216,49 +217,6 @@ def compare_token(request):
             return JsonResponse({'error': 'Internal server error'}, status=500)
     
     return JsonResponse({'error': 'Invalid request method'}, status=405)
-
-# @csrf_exempt
-# def action_switch(request):
-#     if request.method == 'POST':
-#         if not request.body:
-#             return JsonResponse({'error': 'Empty request body'}, status=400)
-
-#         try:
-#             data = json.loads(request.body)
-#         except json.JSONDecodeError:
-#             return JsonResponse({'error': 'Invalid JSON payload'}, status=400)
-
-#         switchname = data.get('switchname')
-#         status = data.get('status', 'off')
-#         macaddress = data.get('macaddress')
-        
-
-#         if not switchname or not macaddress:
-#             return JsonResponse({'error': 'Switch name and macaddress are required'}, status=400)
-
-#         # Read existing switches
-#         switches = read_switches()
-        
-#         # Add new status entry for the switch
-#         new_status = {'switchname': switchname, 'status': status, 'macaddress': macaddress}
-#         switches.append(new_status)
-        
-#         # Update the switch list
-#         write_switches(switches)
-
-#         # Publish the switch status to MQTT
-#         try:
-#             # Pass macaddress, switchname, and status to publish_switch_status
-#             # mqtt_handler.publish_switch_status(macaddress, switchname, status)
-#             mqtt_handler.update_switch_details(macaddress, switchname, status)
-#         except Exception as e:
-#             return JsonResponse({'error': f'Failed to publish to MQTT: {str(e)}'}, status=500)
-
-#         return JsonResponse({'message': 'Switch status updated successfully', 'switch': new_status}, status=200)
-
-#     return JsonResponse({'error': 'Invalid request method'}, status=405)
-
-
 
 # @csrf_exempt
 def action_switch(request):
@@ -592,6 +550,29 @@ def delete_switch(request):
             return JsonResponse({'success': False, 'message': 'Failed to delete the switch.'}, status=500)
     
     return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+@csrf_exempt
+def logout_user(request):
+    return async_to_sync(async_logout_user)(request)
+
+async def async_logout_user(request):
+    try:
+        # Validate request method
+        if request.method != 'POST':
+            return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+        # Perform logout operation
+        await sync_to_async(logout)(request)
+
+        # Return success response
+        return JsonResponse({'message': 'Logout successful!'}, status=200)
+
+    except Exception as e:
+        # Log the error for debugging
+        import traceback
+        print("Unexpected error:", str(e))
+        print("Full traceback:", traceback.format_exc())
+        return JsonResponse({'error': 'Internal server error', 'details': str(e)}, status=500)
 
 # New API to list all switches and their statuses
 # @csrf_exempt
